@@ -1,0 +1,39 @@
+ demo.txt
+
+Python
+
+Interpreted high-level language.
+
+Python is object oriented programming language
+
+line.py
+
+a = open("demo", "r")
+
+b = open("t", "w")
+
+c = a.readlines()
+
+d = len(c)
+
+for i in range(0, d):
+
+    if i % 2 == 0:
+
+b.write(c[i])
+
+    else:
+
+        pass
+
+b.close()
+
+b = open("t", "r")
+
+e = b.read()
+
+print(e)
+
+a.close()
+
+b.close()
